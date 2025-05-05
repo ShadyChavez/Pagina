@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRO - Aprende Programación Jugando</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #3c3e47, #2490af);
+            color: #fff;
+        }
+
+        header {
+            background-color: #2c4a4f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            border-bottom: 4px solid #39869d;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .hero {
+            width: 100%;
+            height: 400px;
+            background-color: #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .content {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            text-align: left;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .section ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .section ul li {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .features img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            background: linear-gradient(to right, #272e30, #39869d);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: linear-gradient(to right, #39869d, #2c4a4f);
+        }
+
+        .faq {
+            margin-top: 40px;
+            background-color: #222;
+            padding: 30px;
+            text-align: left;
+            border-radius: 10px;
+        }
+
+        .faq h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .faq ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .faq ul li {
+            background: #333;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #39869d;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-links a {
+            display: block;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .chatbot-link {
+            margin-top: 20px;
+            font-size: 18px;
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .chatbot-link:hover {
+            background-color: #128C7E;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        VIRO - Aprende Programación Jugando
+    </header>
+
+    <div class="main-container">
+        <div class="hero">
+
+        </div>
+
+        <div class="content">
+       
+            <div class="section">
+                <h2>Acerca del Juego</h2>
+                <p>VIRO es un videojuego educativo diseñado para enseñar los fundamentos de la programación a través de desafíos interactivos. ¡Aprende de manera divertida y eficiente!</p>
+                <div class="hero">
+                </div>
+            </div>
+
+            <div class="section features">
+                <h2>Características</h2>
+                <ul>
+                    <li>Interfaz amigable e intuitiva</li>
+                    <li>Retos interactivos de programación en diferentes niveles</li>
+                    <li>Conexión con bases de datos MySQL</li>
+                    <li>Aprendizaje basado en juegos con recompensas</li>
+                </ul>
+                <div class="hero">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="button-container">
+            <a href="juego_unity_webgl.html" class="button">Iniciar Juego</a>
+        </div>
+
+
+        <div class="faq">
+            <h3>Preguntas Frecuentes</h3>
+            <ul>
+                <li><strong>¿Cómo empezar a jugar?</strong> Solo necesitas hacer clic en "Iniciar Juego" y seguir las instrucciones.</li>
+                <li><strong>¿Puedo jugar desde mi teléfono?</strong> Sí, el juego está optimizado para dispositivos móviles.</li>
+                <li><strong>¿Es necesario tener experiencia previa en programación?</strong> No, el juego está diseñado para principiantes.</li>
+                <li><strong>¿Puedo guardar mi progreso?</strong> Sí, el progreso se guarda automáticamente entre sesiones.</li>
+            </ul>
+        </div>
+
+
+        <div class="contact-links">
+            <a href="https://wa.me/1234567890?text=¡Hola!%20Tengo%20una%20consulta%20sobre%20el%20videojuego%20VIRO." class="chatbot-link" target="_blank">
+    <img src="https://e7.pngegg.com/pngimages/956/783/png-clipart-whatsapp-logo-computer-icons-whatsapp-blue-text-thumbnail.png" alt="WhatsApp" style="width: 24px; height: 24px; margin-right: 10px; vertical-align: middle;">
+    Soporte por WhatsApp
+</a>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Videojuego Educativo | <a href="#">Sin licencias</a></p>
+
+        <div class="contact-links">
+
+            <a href="mailto:soporte@viro.com">Soporte por correo electrónico</a>
+            <a href="tel:+525656113680">Llámanos: +525 656 113 680</a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
